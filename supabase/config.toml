@@ -1,0 +1,25 @@
+project_id = "tvdnhognapqyafgfdcod"
+
+[functions.fetch-weather]
+verify_jwt = false
+
+[functions.fetch-news]
+verify_jwt = false
+
+[functions.fetch-rss]
+verify_jwt = false
+
+[functions.fetch-calendar]
+verify_jwt = false
+
+[functions.fetch-stocks]
+verify_jwt = false
+
+[functions.fetch-traffic]
+verify_jwt = false
+
+[functions.process-voice-command]
+verify_jwt = false
+
+[functions.control-device]
+verify_jwt = true

@@ -1,0 +1,70 @@
+{
+  "name": "SmartMirror",
+  "short_name": "SmartMirror",
+  "description": "A comprehensive smart mirror interface for real-time information and smart home control",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2C3E50",
+  "theme_color": "#3498DB",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open SmartMirror dashboard",
+      "url": "/",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Smart Home",
+      "short_name": "Smart Home",
+      "description": "Control smart home devices",
+      "url": "/smarthome",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Configure SmartMirror settings",
+      "url": "/settings",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "type": "image/png",
+      "sizes": "720x1280",
+      "form_factor": "narrow"
+    }
+  ],
+  "prefer_related_applications": false
+}
